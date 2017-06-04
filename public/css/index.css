@@ -1,0 +1,44 @@
+.hotelname {
+    display: inline-block;
+    text-align: left;
+    line-height: 22px;
+    font-size: 14px;
+    color: #0084bb;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.hotelstars{
+    display: inline-block;
+    padding: 2px 3px;
+    border: 1px solid #ccc;
+    color: #999;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+
+.hotelType{
+    display: inline-block;
+    padding: 2px 3px;
+    color: #999;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    line-height: 1.2;
+}
+.address{
+    line-height: 2;
+}
+/*酒店类型选择*/
+.varietyBox li{float: left;padding: 0 15px;margin-right:10px;line-height: 40px;margin-left: 6px;cursor: pointer}
+
+/*价格选择*/
+.num_ul {width:860px;list-style: none}
+.num_ul li{float: left;padding: 0 15px;margin-right:10px;line-height: 40px;margin-left: 6px;cursor: pointer}
+.num_ul .selected{background: #ff8400;display: inline-block;padding: 0 15px;margin-right: 10px;color: #FFFFFF;position: relative;}
